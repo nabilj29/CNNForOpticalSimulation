@@ -13,7 +13,7 @@ class AbdominalWallDataset(Dataset):
     """
 
     def __init__(self,
-                 root_dir="DSAD/abdominal_wall/03",
+                 root_dir="../DSAD/abdominal_wall/03",
                  max_images=20,
                  img_size=512):
         self.root_dir = root_dir

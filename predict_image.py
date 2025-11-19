@@ -39,7 +39,7 @@ def preprocess_image(path: str) -> torch.Tensor:
 
 
 def main():
-    img_path = "DSAD/abdominal_wall/04/image01.png"
+    img_path = "../DSAD/abdominal_wall/04/image01.png"
     if not os.path.exists(img_path):
         raise FileNotFoundError(f"Image not found: {img_path}")
 
